@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <!-- Vanta.js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Vanta.js initialization -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Περιμένουμε να φορτωθούν όλα τα στοιχεία του DOM
+        setTimeout(() => {
+          const element = document.getElementById('your-element-selector');
+          if (element && window.VANTA) {
+            window.VANTA.FOG({
+              el: element,
+              mouseControls: true,
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              highlightColor: 0x484848,
+              midtoneColor: 0x484848,
+              lowlightColor: 0x484848,
+              baseColor: 0x0,
+              blurFactor: 0.35,
+              speed: 0.50
+            });
+          }
+        }, 100); // Μικρή καθυστέρηση για να βεβαιωθούμε ότι έχει γίνει render
+      });
+    </script>
+  </body>
+</html>

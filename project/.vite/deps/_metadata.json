@@ -1,0 +1,82 @@
+{
+  "hash": "7e53fe4f",
+  "configHash": "511ad12e",
+  "lockfileHash": "95b24081",
+  "browserHash": "e209d250",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "8f2ae065",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "e9f3d5f2",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "5f2fa3cb",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "09913338",
+      "needsInterop": true
+    },
+    "lucide-react": {
+      "src": "../../lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "e639a5e0",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "35a04d73",
+      "needsInterop": true
+    },
+    "three": {
+      "src": "../../three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "2d428284",
+      "needsInterop": false
+    },
+    "vanta/dist/vanta.net.min": {
+      "src": "../../vanta/dist/vanta.net.min.js",
+      "file": "vanta_dist_vanta__net__min.js",
+      "fileHash": "6b93f85c",
+      "needsInterop": true
+    },
+    "vanta/dist/vanta.waves.min": {
+      "src": "../../vanta/dist/vanta.waves.min.js",
+      "file": "vanta_dist_vanta__waves__min.js",
+      "fileHash": "7553b0d8",
+      "needsInterop": true
+    },
+    "vanta/dist/vanta.waves.min.js": {
+      "src": "../../vanta/dist/vanta.waves.min.js",
+      "file": "vanta_dist_vanta__waves__min__js.js",
+      "fileHash": "d93fd5cf",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-SJ77OPRW": {
+      "file": "chunk-SJ77OPRW.js"
+    },
+    "chunk-NXESFFTV": {
+      "file": "chunk-NXESFFTV.js"
+    },
+    "chunk-DRWLMN53": {
+      "file": "chunk-DRWLMN53.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}

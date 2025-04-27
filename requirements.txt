@@ -3,4 +3,6 @@ Flask-Cors
 gunicorn
 selenium
 ujson
+webdriver-manager
+
 

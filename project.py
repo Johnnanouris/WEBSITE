@@ -963,6 +963,8 @@ def search_sources(search_term, min_price, max_price, max_pages=1):
 
 # Script execution
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
     try:
         if len(sys.argv) < 4:
             safe_print("❌ Not enough arguments provided")
